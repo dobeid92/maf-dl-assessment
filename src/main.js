@@ -8,6 +8,7 @@ Vue.component('dl-button', DlButton)
 
 import App from './js/views/layout/Index'
 import Dashboard from './js/views/pages/dashboard/View'
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 
