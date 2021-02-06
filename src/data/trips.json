@@ -1,0 +1,71 @@
+{
+    "trips": [{
+            "name": "Chill Adventure",
+            "description": "Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur.<br/><br/>Erat id fringilla arcu condimentum fames.Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis.",
+            "images": [{
+                "name": "GRAND DUNES LANDSCAPE",
+                "image": "trip.png"
+            }, {
+                "name": "GRAND DUNES LANDSCAPE",
+                "image": "trip.png"
+            },
+            {
+                "name": "GRAND DUNES LANDSCAPE",
+                "image": "trip.png"
+            }
+        ]
+        },
+        {
+            "name": "Spooky Times",
+            "description": "Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis.",
+            "images": [{
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                }, {
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                },
+                {
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                },
+                {
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                }
+            ]
+        },
+        {
+            "name": "Desert Madness",
+            "description": "Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis.",
+            "images": [{
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                }, {
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                },
+                {
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                }
+            ]
+        },
+        {
+            "name": "Out in the wild",
+            "description": "Ornare vivamus molestie pellentesque nunc. Sed sapien erat ultrices curabitur. Erat id fringilla arcu condimentum fames.Aliquet dictum aliquet faucibus cursus turpis. Suspendisse cum rutrum sit ut sociis. Pellentesque neque orci adipiscing pharetra lacus, dignissim pharetra ipsum blandit. Feugiat quis quam consectetur lectus id quis tortor vel, mattis.",
+            "images": [{
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                }, {
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                },
+                {
+                    "name": "GRAND DUNES LANDSCAPE",
+                    "image": "trip.png"
+                }
+            ]
+        }
+    ]
+}
