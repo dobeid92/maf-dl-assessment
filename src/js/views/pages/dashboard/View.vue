@@ -30,15 +30,24 @@
           </div>
           <div class="flex justify-end items-center mb-16">
             <div class="flex flex-col items-start">
-              <img src="/assets/icons/twitter.svg" class="mb-2" />
-              <img src="/assets/icons/instagram.svg" class="mb-2" />
-              <img src="/assets/icons/facebook.svg" class="mb-2" />
+              <img
+                src="/assets/icons/twitter.svg"
+                class="mb-3 cursor-pointer"
+              />
+              <img
+                src="/assets/icons/instagram.svg"
+                class="mb-3 cursor-pointer"
+              />
+              <img
+                src="/assets/icons/facebook.svg"
+                class="mb-3 cursor-pointer"
+              />
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="w-full" :styles="pickStyles">
+    <div class="w-full mb-8 z-50" :styles="pickStyles">
       <div class="container mx-auto px-16 mb-8">
         <div class="w-full flex justify-start items-center -mx-2 mb-8 pt-10">
           <div
@@ -214,7 +223,8 @@ export default {
       theme += " overflow: hidden;";
       theme += " background-size: cover;";
       theme += " background-position: center;";
-      theme += ' background-image: url("/assets/images/lights.svg");';
+      theme += " background-color: #011627;";
+      theme += ' background-image: url("/assets/images/lights.png");';
       return theme;
     },
     activeTrip: function () {
