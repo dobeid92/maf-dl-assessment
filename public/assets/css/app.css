@@ -3,3 +3,48 @@ body {
     min-height: 100vh;
     margin: 0;
 }
+
+#main-menu {
+    width: 30%;
+    height: 100%;
+    right: -100%;
+    -webkit-transition: all 250ms ease-in-out;
+    -moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -ms-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-in-out;
+}
+
+.mask {
+    z-index: 9998;
+    background-color: rgba(0, 0, 0, 0.5);
+    right: 100%;
+    transition: opacity .3s ease;
+}
+
+.menu-open {
+    top: 0;
+    right: 0 !important;
+    opacity: 100;
+    animation: 500ms menu-show;
+}
+
+.mask-open {
+    right: 0;
+}
+
+.mask-close {
+    display: none;
+}
+
+@keyframes menu-show {
+    0% {
+        right: -500px;
+        opacity: 0;
+    }
+
+    100% {
+        right: 0;
+        opacity: 100;
+    }
+}

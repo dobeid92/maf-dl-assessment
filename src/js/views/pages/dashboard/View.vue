@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full flex flex-col justify-start items-start tracking-wider"
+    class="w-full flex flex-col justify-start items-start tracking-wider relative"
     style="background-color: #011627"
   >
     <div class="h-screen w-full p-6" :style="coverStyles">
@@ -10,7 +10,12 @@
             <div class="text-white font-bold" v-text="'.NT'" />
             <div class="flex justify-start items-center -mx-2">
               <img src="/assets/icons/search.svg" class="mx-2" />
-              <dl-button text="Menu" class="mx-2" />
+              <dl-button
+                id="menu-open-btn"
+                text="Menu"
+                class="mx-2"
+                @click.native="toggleMenu"
+              />
             </div>
           </div>
           <div class="w-full flex flex-col justify-center items-center">
@@ -162,12 +167,17 @@
         </div>
       </div>
     </div>
+    <side-menu />
   </div>
 </template>
 
 <script>
+import Menu from "../../../components/layout/Menu.vue";
 import tripsData from "../../../../data/trips.json";
 export default {
+  components: {
+    "side-menu": Menu,
+  },
   data: function () {
     return {
       trips: [],
@@ -207,6 +217,11 @@ export default {
     },
     noOp: function () {
       return;
+    },
+    toggleMenu: function () {
+      $("#main-menu").toggleClass("menu-open menu-close");
+      $(".mask").toggleClass("mask-open mask-close");
+      $("body")[0].style.overflow = "hidden";
     },
   },
   computed: {
